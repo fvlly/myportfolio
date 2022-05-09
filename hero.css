@@ -2,7 +2,7 @@
   --bg-color: hsl(232, 21%, 29%);
   --clr-text-light: hsl(98, 14%, 89%);
   --typewriterSpeed: 6s;
-  --typewriterCharacters: 19;
+  --typewriterCharacters: 21;
 }
 
 .hero {
@@ -17,6 +17,7 @@
 background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: var(--clr-text-light);
+  background-blend-mode:multiply ;
 }
 
 h1 {
@@ -60,6 +61,7 @@ background-image: url("https://www.transparenttextures.com/patterns/escheresque.
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
+    background-blend-mode:multiply ;
 }
 
 strong::after {
